@@ -161,3 +161,33 @@
     background-color: aqua;
     color: black;
 }
+@media (max-width: 600px) {
+    .pokemon{
+        width: 150px;
+        height: auto;
+        margin: 10px 2px;
+    }
+  .Siguiente{
+   font-size: 30px;
+   padding: 10px;
+   margin: 0px 10px;
+
+  }
+  .containerpokedex{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+  }
+  .Anterior{
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 10px;
+  }
+  .imgpokemon {
+    width: 100px;
+    height: 100px;
+}
+.detalle-pokemon{
+    width: auto;
+}
+}
