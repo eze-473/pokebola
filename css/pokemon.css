@@ -1,0 +1,40 @@
+.container-pokedex{
+    border: solid 3px blue;
+}
+.evoluciones{
+       
+    display: flex; 
+    justify-content: space-around;
+
+    
+    flex-wrap: wrap;
+   
+}
+.evolucion{
+     margin: 50px; 
+    border: solid 3px black;
+    height: 400px;
+}
+.evolucionado{
+ margin: 100px;
+ /* border: solid 3px black; */
+}
+.bi{
+    margin: 25px;
+    font-size: 40px;
+}
+@media (max-width: 600px) {
+    /* .evoluciones{
+        display: flex;
+        justify-content: space-between;
+    }
+    .evolucionado{
+        margin: 0px -50px;
+    }*/
+    .evolucion{
+        width: 420px;
+        height: auto;
+        margin: 0px -25px;
+    } 
+  
+}
