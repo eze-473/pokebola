@@ -121,7 +121,15 @@
     font-family: sans-serif;
     padding: 8px;
 }
+.agua{
 
+ 
+    color: rgb(22, 8, 153);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
 .planta{
     background-color:rgb(33, 95, 20) ;
  
