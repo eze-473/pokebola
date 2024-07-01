@@ -1,0 +1,222 @@
+.container-pokedex{
+    /* border: solid 3px blue; */
+    height: 620px;
+}
+.idpokemon{
+    color: #484b4b; 
+    font-size: 40px;
+    
+}
+.name{
+    font-size: 70px;
+    text-align: center;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: rgba(184, 90, 13, 0.938);
+}
+.parrafopokemon{
+    font-family: sans-serif;
+    color: #616464;
+    font-weight: bold;
+    font-size: 19px;
+}
+.Debilidad{
+    font-weight: bold;
+    color: #0a0a0a;
+    font-size: 40px;
+}
+.contenedorpokemon{
+    /* background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+    background-color: #979b9b;
+    
+}
+.Carsteristicas{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    padding: 5px;
+    border-radius: 10px;
+    /* width: auto; */
+}
+.Carasteristicas{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    /* margin: 10px; */
+
+}
+.p{
+font-weight: bold;
+color: rgb(7, 7, 6);
+}
+.planta{
+   font-size: 20px;
+    margin: -10px;
+    color: rgb(27, 160, 10);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+   
+}
+.agua{
+    font-size: 20px;
+ margin: -10px;
+    color: rgb(7, 31, 165);
+    font-weight: bold;
+    
+    font-family: sans-serif;
+    
+}
+.fuego{
+  margin: -10px;
+ 
+    color: rgb(219, 127, 41);
+    font-weight: bold;
+   
+    font-family: sans-serif;
+  
+}
+
+.containerCarsteristicas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.evoluciones{
+       
+    display: flex; 
+    justify-content: space-around;
+
+    
+    flex-wrap: wrap;
+   
+}
+.tipo{
+    display: flex;
+    justify-content: space-around;
+}
+.evolucion{
+     /* margin: 50px;  */
+     background-color: #383a3ad3;
+    /* border: solid 3px black; */
+    height: 500px;
+    border-radius: 30px;
+}
+.imgevolucionado{
+    border:solid white 5px;
+    width: 250px;
+    background-color: rgb(85, 84, 82);
+    border-radius: 100%;
+    padding: 30px;
+  
+}
+.elementoAgua{
+    width: 100px;
+    background-color: rgb(94, 198, 224);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.elementoAgua:hover{
+    background-color: #0093E9;
+}
+.elemento:hover{
+    background-color: orange;
+}
+.elemento{
+    width: 70px;
+    background-color: rgb(221, 96, 23);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.nameEvolucionado{
+    color: white;
+    font-family: sans-serif;
+}
+.idEvolucionado{
+    color: #969c9c;
+    font-size: 20px;
+}
+.evolucionado{
+ margin: 20px;
+ /* border: solid 3px black; */
+
+ /* background-color: rgb(145, 141, 137);
+ border-radius: 100%; */
+}
+.bi{
+    margin: 25px;
+    font-size: 40px;
+}
+/* title */
+.titleEvoluciones{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.titleAgua{
+    color: rgb(50, 50, 185);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+@media (max-width: 600px) {
+   .titleEvoluciones{
+    font-size: 40PX;
+    margin: 20px;
+   }
+    /* .elemento{
+     margin: 0px 20px;
+     
+    } */
+    .container-pokedex{
+        margin: 0px 0px 450px;
+    }
+    .evoluciones{
+        display: flex;
+        justify-content: space-between;
+       
+     
+
+    }
+    .evolucionado{
+        margin: 10px -11px;
+        height: 10PX;
+        
+    }*/
+    .evolucion{
+        width: 420px;
+        height: 20PX;
+        margin: 0px -25px;
+        
+    } 
+    .imgevolucionado{
+        width: 120px;
+        padding: 20px;
+        padding: 10px;
+        border: solid 3px white;
+    }
+    .imgpokemon{
+        width: 300px;
+       
+        margin: 0px ;
+    }
+    .fuego{
+        font-size: 20px;
+    }
+    .agua{
+        font-size: 20px;
+    }
+    .planta{
+        font-size: 20px;
+    }
+  
+}
