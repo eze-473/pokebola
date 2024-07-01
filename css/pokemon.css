@@ -137,6 +137,14 @@ color: rgb(7, 7, 6);
     font-size: 20px;
     border-radius: 50px;
 }
+.name2{
+    font-size: 70px;
+    text-align: center;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: rgba(235, 222, 46, 0.938);
+}
 .nameEvolucionado{
     color: white;
     font-family: sans-serif;
