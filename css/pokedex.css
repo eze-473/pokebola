@@ -8,7 +8,7 @@
        text-align: center;
        flex-wrap: wrap;
        background-image: linear-gradient( 174.2deg,  rgb(238, 227, 210) 7.1%, rgb(226, 233, 223) 67.4% );
-    
+    margin: 0px 20px;
 }
 .title{
     /* font-weight: bold; */
@@ -29,7 +29,7 @@
     border: solid 2px rgb(138, 136, 136);
     flex-direction: column;
     text-align: center;
-    margin: 20px 50px;
+    margin: 20px 40px;
     border-radius: 9px;
 
 
@@ -121,7 +121,15 @@
     font-family: sans-serif;
     padding: 8px;
 }
+.agua{
 
+ 
+    color: rgb(22, 8, 153);
+    font-weight: bold;
+    border-radius: 50px;
+    font-family: sans-serif;
+    padding: 8px;
+}
 .planta{
     background-color:rgb(33, 95, 20) ;
  
@@ -178,6 +186,43 @@
     background-color: aqua;
     color: black;
 }
+/* title */
+.titleAgua{
+ color: rgb(27, 107, 212);
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px 60px;
+   
+}
+.titleFuego{
+    color: rgb(173, 82, 8);
+       font-family: sans-serif;
+       /* font-weight: bold; */
+       font-size: 60px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       margin: 0px 40px;
+      
+   }
+   .titleRayo{
+    color: rgb(16, 6, 151);
+       font-family: sans-serif;
+       /* font-weight: bold; */
+       font-size: 60px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       margin: 0px 40px;
+      
+   }
+   .titlePlanta{
+    color: rgb(41, 146, 10);
+       font-family: sans-serif;
+       /* font-weight: bold; */
+       font-size: 60px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       margin: 0px 40px;
+      
+   }
 @media (max-width: 600px) {
     .pokemon{
         width: 180px;
