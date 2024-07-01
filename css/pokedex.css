@@ -52,22 +52,31 @@
 }
 .detalle-pokemon{
     background-color: rgb(14, 89, 150);
-    color: white;
-   border-radius: 6px;
-   width: 180px;
-   height: 30px;
+    color: rgb(255, 252, 252);
+   border-radius: 6px; 
+    width: 180px;
+   height: 50px; 
+   padding: 15px;
+    
    border: none;
  font-family: sans-serif Arial, Helvetica, sans-serif;
    font-weight: bold;
    cursor: pointer;
-   margin: 27px 10px;
+   /* margin: 27px 10px; */
+   /* margin: 10px; */
 
  
 }
+.a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
 .agua{
-    background-color:rgb(4, 67, 119) ;
+    background-color:rgb(32, 68, 226) ;
  
-    color: rgb(255, 255, 255);
+    color: rgb(253, 253, 253);
     font-weight: bold;
     border-radius: 50px;
     font-family: sans-serif;
@@ -89,7 +98,7 @@
     background-color: rgb(66, 34, 3);
 }
 .aire{
-    background-color:rgb(98, 130, 190) ;
+    background-color:rgb(7, 75, 202) ;
  
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -121,15 +130,7 @@
     font-family: sans-serif;
     padding: 8px;
 }
-.agua{
 
- 
-    color: rgb(22, 8, 153);
-    font-weight: bold;
-    border-radius: 50px;
-    font-family: sans-serif;
-    padding: 8px;
-}
 .planta{
     background-color:rgb(33, 95, 20) ;
  

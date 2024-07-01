@@ -7,13 +7,21 @@
     font-size: 40px;
     
 }
+.name2{
+    font-size: 70px;
+    text-align: center;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: rgba(191, 194, 32, 0.938); 
+}
 .name{
     font-size: 70px;
     text-align: center;
     margin: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-    color: rgba(184, 90, 13, 0.938);
+    color: rgba(184, 90, 13, 0.938); 
 }
 .parrafopokemon{
     font-family: sans-serif;
@@ -29,7 +37,7 @@
 .contenedorpokemon{
     /* background-color: #74EBD5;
     background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
-    background-color: #979b9b;
+    background-color: #d0d8d8;
     
 }
 .Carsteristicas{
@@ -99,9 +107,51 @@ color: rgb(7, 7, 6);
     justify-content: space-around;
 }
 .evolucion{
-     margin: 50px; 
-    border: solid 3px black;
-    height: 400px;
+     /* margin: 50px;  */
+     background-color: #383a3ad3;
+    /* border: solid 3px black; */
+    height: 500px;
+    border-radius: 30px;
+}
+.imgevolucionado{
+    border:solid white 5px;
+    width: 250px;
+    background-color: rgb(85, 84, 82);
+    border-radius: 100%;
+    padding: 30px;
+  
+}
+.elementoAgua{
+    width: 100px;
+    background-color: rgb(94, 198, 224);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.elementoAgua:hover{
+    background-color: #0093E9;
+}
+.elemento:hover{
+    background-color: orange;
+}
+.elemento{
+    width: 70px;
+    background-color: rgb(221, 96, 23);
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.nameEvolucionado{
+    color: white;
+    font-family: sans-serif;
+}
+.idEvolucionado{
+    color: #969c9c;
+    font-size: 20px;
 }
 .evolucionado{
  margin: 20px;
