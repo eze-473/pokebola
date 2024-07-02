@@ -167,9 +167,11 @@
     font-family: sans-serif;
     margin: 0px 50px;
     border-radius: 10px;
+    text-decoration: none;
 
 }
 .Siguiente{
+    text-decoration: none;
     background-color: rgb(38, 38, 172);
     padding: 10px;
     color: white;

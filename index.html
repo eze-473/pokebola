@@ -12,6 +12,38 @@
     <title>Proyecto Pokedex</title>
 </head>
 <body>
+   <nav class="navbar navbar-expand-lg bg-primary-subtle">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="page/Pikachu.html">Pokemon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page/equipo.html">Sobre Nosotros</a>
+            </li>
+         
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               tipos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#fuego">fuego</a></li>
+                <li><a class="dropdown-item" href="#agua">Planta</a></li>
+                <li><a class="dropdown-item" href="#fuego">Fuego</a></li>
+                
+                <li><a class="dropdown-item" href="#Electrico">Electrico</a></li>
+                <li><a class="dropdown-item" href="#agua">Agua</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
    <!-- carrousel
      -->
    <section class="carouselseccion">
@@ -49,7 +81,7 @@
       <div class="pokemontitle">
           <img src="img/imgcarousel/pokemon.png" alt=""width="400px">
      </div>
-    <h1 class="titleFuego">Fuego<i class="bi bi-fire"></i></h1>
+    <h1 class="titleFuego" id="fuego">Fuego<i class="bi bi-fire"></i></h1>
     <div class="containerpokedex">  
       <div class="pokemon">
           <img class="imgpokemon" src="img/imgpokemones/pokemon-9.png" alt="imgpokemon">
@@ -156,7 +188,7 @@
 
     </div>
 
-       <h1 class="titleAgua">Agua<i class="bi bi-droplet"></i></h1>
+       <h1 class="titleAgua" id="agua">Agua<i class="bi bi-droplet"></i></h1>
      <div class="containerpokedex">
      
       
@@ -272,7 +304,7 @@
     
  
     <!--Planta-->
-    <h1 class="titlePlanta">Planta<i class="bi bi-flower2"></i></i></h1>
+    <h1 class="titlePlanta" id="planta">Planta<i class="bi bi-flower2"></i></i></h1>
     <div class="containerpokedex">
  <div class="pokemon">
           <img class="imgpokemon" src="img/imgpokemones/pokemon-1.png" alt="imgpokemon">
@@ -379,7 +411,7 @@
        <Button class="detalle-pokemon" ><a href="page/Pikachu.html" class="a">Ver detalles</a></Button>  
 </div>
     </div>
-    <h1 class="titleRayo">Rayo<i class="bi bi-lightning-charge"></i></h1>
+    <h1 class="titleRayo" id="Electrico">Electrico<i class="bi bi-lightning-charge"></i></h1>
     <div class="containerpokedex"> 
     
       <div class="pokemon">
@@ -436,8 +468,8 @@
 
    
 <div class="botones">
-  <span class="Anterior"><i class="bi bi-arrow-left"></i>Anterior </span>
-  <span class="Siguiente">Siguiente<i class="bi bi-arrow-right"></i></span>
+   <a href="page/error404.html"class="Anterior"><i class="bi bi-arrow-left"></i>Anterior</a> 
+   <a href="page/error404.html"class="Siguiente">Siguiente<i class="bi bi-arrow-right"></i></a> 
 </div>
 </section>
 
