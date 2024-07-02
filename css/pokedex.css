@@ -227,7 +227,10 @@
       
    }
 @media (max-width: 600px) {
+    
+   
     .pokemon{
+        
         width: 180px;
         height: auto;
         margin: 10px 2px;
@@ -242,6 +245,8 @@
     
     flex-wrap: wrap;
     display: flex;
+    margin: 20px;
+    width: auto;
     /* flex-direction: row; */
   }
   .Anterior{
