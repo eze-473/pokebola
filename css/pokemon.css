@@ -1,6 +1,6 @@
 .container-pokedex{
-    border: solid 3px rgb(152, 147, 147);
-    
+    border: solid 5px rgb(152, 147, 147);
+    border-radius: 10px;
     height: 620px;
     padding: 10px;
     
