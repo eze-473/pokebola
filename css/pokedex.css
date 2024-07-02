@@ -26,16 +26,16 @@
 .pokemon{
     width: 200px;
     height: auto;
-    border: solid 2px rgb(138, 136, 136);
+    border: solid 3px rgb(138, 136, 136);
     flex-direction: column;
     text-align: center;
-    margin: 20px 40px;
+    margin: 20px 60px;
     border-radius: 9px;
 
 
 }
 .pokemon:hover{
-       box-shadow: 4px 4px 3px rgba(107, 105, 105, 0.7); 
+       box-shadow: 5px 4px 3px rgba(107, 105, 105, 0.7); 
        border: solid 3px rgb(138, 136, 136);
 }
 .imgpokemon{
